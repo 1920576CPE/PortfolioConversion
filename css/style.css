@@ -289,7 +289,7 @@ body{
 }
 
 hr{
-  height: 1px;
+  height: 2px;
   width: 100%;
   margin: auto;
   background-color: #FF0000;
@@ -412,7 +412,7 @@ hr{
 .ProgrammingSkills{
     background: linear-gradient(180deg, rgba(9, 9, 16, 0.9) 99.98%, rgba(9, 9, 16, 0.65) 99.99%, rgba(9, 9, 16, 0.9) 100%, rgba(9, 9, 16, 0.9) 100%);
     ;
-    padding-bottom: 4rem;
+    padding: 4rem 0;
 }
 .ProgrammingSkills h1{
     font-size: 30px;
