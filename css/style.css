@@ -42,9 +42,12 @@ body{
     gap: 2rem;
 }
 .nav ul li{
-    text-decoration: none;
     color: #ffffff;
     list-style: none;
+}
+.nav ul li a{
+    text-decoration: none !important;
+    color: #ffffff;
 }
 .header__wrapper{
     display: flex;
@@ -467,4 +470,44 @@ hr{
     justify-content: space-between;
     margin-bottom: 2rem;
     align-items: center;
+}
+
+/*--------------This is CSS PROJECTS --------*/
+
+.projects{
+    background: linear-gradient(180deg, rgba(9, 9, 16, 0.9) 99.98%, rgba(9, 9, 16, 0.65) 99.99%, rgba(9, 9, 16, 0.9) 100%, rgba(9, 9, 16, 0.9) 100%);
+    ;
+    padding: 6rem 0;
+}
+
+.projects__title{
+    text-align: center;
+    color: #ffffff;
+    font-size: 70px;
+}
+
+.project__subtitle{
+    color: #ffffff;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+
+.project__content{
+    padding: 4rem;
+    color: #ffffff;
+    background-color: #1A1A1B;
+    width: 550px;
+    height: 390px;
+}
+
+.project__img{
+    display: block;
+}
+
+.project__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
